@@ -1,0 +1,38 @@
+{
+  "root": true,
+  "extends": [
+    "./eslint.config.js",
+    "plugin:vue/recommended",
+    "plugin:@typescript-eslint/eslint-recommended",
+    "plugin:@typescript-eslint/recommended",
+    "@vue/typescript/recommended"
+  ],
+  "env": {
+    "browser": true,
+    "node": true
+  },
+  "globals": {},
+  "rules": {
+    "no-unused-vars": "error",
+    "no-prototype-builtins": "off",
+    "vue/html-closing-bracket-newline": [
+      "error",
+      {
+        "singleline": "never",
+        "multiline": "never"
+      }
+    ],
+    "vue/match-component-file-name": "error",
+    "@typescript-eslint/ban-ts-ignore": 0
+  },
+  "parser": "vue-eslint-parser",
+  "parserOptions": {
+    "parser": "@typescript-eslint/parser",
+    "sourceType": "module",
+    "ecmaVersion": 2017
+  },
+  "plugins": [
+    "vue",
+    "@typescript-eslint"
+  ]
+}

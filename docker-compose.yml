@@ -1,0 +1,15 @@
+version: "3"
+services:
+  node:
+    build:
+      context: ./
+      dockerfile: config/docker/node/Dockerfile
+    user: "node"
+    working_dir: /home/node/app
+    environment:
+      - NODE_ENV=development
+    ports:
+    - "4200:4200"
+    volumes:
+      - ./:/home/node/app:delegated
+    command: bash -c "yarn && yarn start"

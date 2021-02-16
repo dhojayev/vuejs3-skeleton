@@ -1,4 +1,4 @@
-# Project skeleton with VueJS3 / TypeScript / vuex / SASS / eslint / tslint / stylelint / bootstrap 5 / docker-compose
+# Project skeleton with Encore / VueJS3 / TypeScript / vuex / SASS / eslint / tslint / stylelint / bootstrap 5 / docker-compose
 
 This project includes all the typical packages that I use for VueJS development.
 

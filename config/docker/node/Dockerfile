@@ -1,5 +1,4 @@
-FROM node:14
+FROM node:16-alpine
 
-RUN apt update
-RUN apt install -y --no-install-recommends sudo
-RUN sudo npm -g install --force yarn
+RUN apk add --update bash python3 make
+RUN npm -g install --force yarn

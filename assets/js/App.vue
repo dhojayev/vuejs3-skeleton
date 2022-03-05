@@ -10,7 +10,7 @@
   import { defineComponent } from 'vue'
   import routes from './routes'
   import NotFoundComponent from './pages/NotFoundComponent.vue'
-  import { Component } from 'vue-router/types/router.js'
+  import { Component } from 'vue'
 
   export default defineComponent({
     data: () => ({

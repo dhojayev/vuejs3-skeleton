@@ -6,7 +6,7 @@ This project includes all the typical packages that I use for VueJS development.
 
 To run the project on a host machine you must have installed:
 
-- nodejs v14
+- nodejs v16
 - yarn
 
 To run using docker-compose you must have installed:

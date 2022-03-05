@@ -1,5 +1,5 @@
 import HomeComponent from './pages/HomeComponent.vue'
-import { Component } from 'vue-router/types/router.js'
+import { Component } from 'vue'
 
 const routes: { [key: string]: Component } = {
     '/': HomeComponent,

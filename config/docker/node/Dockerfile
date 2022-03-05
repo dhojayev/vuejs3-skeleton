@@ -1,4 +1,4 @@
-FROM node:14
+FROM node:15
 
 RUN apt update
 RUN apt install -y --no-install-recommends sudo

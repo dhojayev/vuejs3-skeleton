@@ -1,5 +1,4 @@
-FROM node:15
+FROM node:15-alpine
 
-RUN apt update
-RUN apt install -y --no-install-recommends sudo
-RUN sudo npm -g install --force yarn
+RUN apk add --update bash
+RUN npm -g install --force yarn
